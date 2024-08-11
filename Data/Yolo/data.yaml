@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['Jake-Big-Face', 'Jake-Small-Face', 'Jimmy-Big-Face', 'Jimmy-Small-Face', 'Other']
+
+roboflow:
+  workspace: ann-final
+  project: celebretiy-face-detection
+  version: 4
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/ann-final/celebretiy-face-detection/dataset/4
